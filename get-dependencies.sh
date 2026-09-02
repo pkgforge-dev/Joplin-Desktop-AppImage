@@ -10,7 +10,7 @@ pacman -Syu --noconfirm libnss_nis nss-mdns nss
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini
+get-debloated-pkgs --add-common --prefer-nano ffmpeg-nano
 
 # Comment this out if you need an AUR package
 #make-aur-package PACKAGENAME
